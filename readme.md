@@ -1,7 +1,7 @@
 [pick-a-track](http://pick-a-track.dev)
 ======================================
 
-A simple application to democratize the office Spotify soundtrack. Power to the people.
+Vote for (or against) music tracks in order to develop the best Spotify playlists.
 
 Written in PHP using the Laravel web framework.
 
