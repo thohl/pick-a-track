@@ -4,7 +4,7 @@ class UserController extends BaseController {
 
 	public function getIndex()
 	{
-		return "Users (via getIndex method in the UserController)!";
+		return View::make('users');
 	}
 
 	/**
