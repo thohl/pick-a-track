@@ -7,5 +7,8 @@
 <body>
 	<h1>Users!</h1>
 	<p>This view lives in app/views/users.blade.php.</p>
+	@foreach($users as $user)
+		<p>{{ $user->name }}, {{ $user->email }}</p>
+	@endforeach
 </body>
 </html>
