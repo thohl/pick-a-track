@@ -1,8 +1,10 @@
-<!doctype html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>welcome to pick-a-track.</title>
+@extends('layouts.default')
+
+@section('title')
+	welcome to pick-a-track
+@stop
+
+@section('styles')
 	<style>
 		body {
 			margin: 0;
@@ -22,10 +24,10 @@
 			margin: 16px 0 0 0;
 		}
 	</style>
-</head>
-<body>
+@stop
+
+@section('content')
 	<div class="welcome">
 		<h1>welcome to pick-a-track.</h1>
 	</div>
-</body>
-</html>
+@stop
