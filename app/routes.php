@@ -16,9 +16,16 @@ Route::get('/', function()
 	return View::make('welcome');
 });
 
-Route::get('/users', function()
+Route::get('users', function()
 {
 	$users = User::all();
 
 	return View::make('users')->with('users', $users);
 });
+
+Route::get('user{id}', function($id)
+{
+	$user = User::find($id);
+	return View::make('user')->with('user', $user);
+})
+->where('id', '[0-9]+');
