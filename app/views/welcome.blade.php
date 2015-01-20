@@ -4,7 +4,7 @@
 	welcome to pick-a-track
 @stop
 
-@section('styles')
+@section('style')
 	<style>
 		body {
 			margin: 0;

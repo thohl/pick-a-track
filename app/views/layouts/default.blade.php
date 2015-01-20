@@ -5,7 +5,7 @@
 		<title>
 			@yield('title')
 		</title>
-		@yield('styles');
+		@yield('style')
 	</head>
 	<body>
 		@yield('content')

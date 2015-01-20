@@ -1,10 +1,9 @@
-<!doctype html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>user | pick-a-track</title>
-</head>
-<body>
-	<h1>{{ $user->name }}</h1>
-</body>
-</html>
+@extends('layouts.default')
+
+@section('title')
+	{{ $user->name }} | pick-a-track
+@stop
+
+@section('content')
+	{{ dd($user); }}
+@stop
