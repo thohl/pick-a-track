@@ -5,25 +5,23 @@
 @stop
 
 @section('style')
-	<style>
-		body {
-			margin: 0;
-			font-family: 'Georgia', sans-serif;
-			text-align: center;
-			color: #999;
-		}
+	body {
+		margin: 0;
+		font-family: 'Georgia', sans-serif;
+		text-align: center;
+		color: #999;
+	}
 
-		.welcome {
-			width: 300px;
-			height: 200px;
-			margin: 20% auto 0% auto;
-		}
+	.welcome {
+		width: 300px;
+		height: 200px;
+		margin: 20% auto 0% auto;
+	}
 
-		h1 {
-			font-size: 32px;
-			margin: 16px 0 0 0;
-		}
-	</style>
+	h1 {
+		font-size: 32px;
+		margin: 16px 0 0 0;
+	}
 @stop
 
 @section('content')
