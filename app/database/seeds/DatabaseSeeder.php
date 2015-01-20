@@ -31,6 +31,12 @@ class UserTableSeeder extends Seeder {
 											 'email' => 'elmo@sesamestreet.org'));
 		User::create(array('name' => 'Cookie Monster',
 											 'email' => 'cookie.monster@sesamestreet.org'));
+		User::create(array('name' => 'Oscar the Grouch',
+											 'email' => 'oscar.the.grouch@sesamestreet.org'));
+		User::create(array('name' => 'Bert',
+											 'email' => 'bert@sesamestreet.org'));
+		User::create(array('name' => 'Ernie',
+											 'email' => 'ernie@sesamestreet.org'));
 
 	}
 
